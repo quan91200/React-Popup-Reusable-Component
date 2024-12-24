@@ -25,7 +25,7 @@ const Popup = ({
             onClick={onClose}
         >
             <div
-                className="max-w-full max-h-[90vh] overflow-auto rounded-lg shadow-lg m-2"
+                className="max-w-full max-h-[90vh] overflow-auto rounded-lg shadow-lg m-2 animate-fade-in"
                 onClick={(e) => e.stopPropagation()}
             >
                 {children}
